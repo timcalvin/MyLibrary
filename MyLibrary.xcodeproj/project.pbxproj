@@ -11,6 +11,11 @@
 		B192F8A929709B1200ED0964 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192F8A829709B1200ED0964 /* ContentView.swift */; };
 		B192F8AB29709B1400ED0964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B192F8AA29709B1400ED0964 /* Assets.xcassets */; };
 		B192F8AF29709B1400ED0964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B192F8AE29709B1400ED0964 /* Preview Assets.xcassets */; };
+		B192F8BB29709B3300ED0964 /* Color in Resources */ = {isa = PBXBuildFile; fileRef = B192F8B729709B3300ED0964 /* Color */; };
+		B192F8BC29709B3300ED0964 /* Bundle in Resources */ = {isa = PBXBuildFile; fileRef = B192F8B829709B3300ED0964 /* Bundle */; };
+		B192F8BF29709D0800ED0964 /* Calendar-HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192F8BE29709D0800ED0964 /* Calendar-HelperMethods.swift */; };
+		B192F8C229709E2500ED0964 /* String-HelperMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192F8C129709E2500ED0964 /* String-HelperMethods.swift */; };
+		B192F8C52970A2A800ED0964 /* MultiFactorSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = B192F8C42970A2A800ED0964 /* MultiFactorSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		B192F8AA29709B1400ED0964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B192F8AC29709B1400ED0964 /* MyLibrary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyLibrary.entitlements; sourceTree = "<group>"; };
 		B192F8AE29709B1400ED0964 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B192F8B729709B3300ED0964 /* Color */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Color; sourceTree = "<group>"; };
+		B192F8B829709B3300ED0964 /* Bundle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bundle; sourceTree = "<group>"; };
+		B192F8BE29709D0800ED0964 /* Calendar-HelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar-HelperMethods.swift"; sourceTree = "<group>"; };
+		B192F8C129709E2500ED0964 /* String-HelperMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-HelperMethods.swift"; sourceTree = "<group>"; };
+		B192F8C42970A2A800ED0964 /* MultiFactorSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFactorSort.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 			children = (
 				B192F8A629709B1200ED0964 /* MyLibraryApp.swift */,
 				B192F8A829709B1200ED0964 /* ContentView.swift */,
+				B192F8C32970A28300ED0964 /* Helpers */,
+				B192F8B829709B3300ED0964 /* Bundle */,
+				B192F8BD29709CE100ED0964 /* Calendar */,
+				B192F8B729709B3300ED0964 /* Color */,
+				B192F8C029709E0D00ED0964 /* String */,
+				B192F8AD29709B1400ED0964 /* Preview Content */,
 				B192F8AA29709B1400ED0964 /* Assets.xcassets */,
 				B192F8AC29709B1400ED0964 /* MyLibrary.entitlements */,
-				B192F8AD29709B1400ED0964 /* Preview Content */,
 			);
 			path = MyLibrary;
 			sourceTree = "<group>";
@@ -67,6 +82,30 @@
 				B192F8AE29709B1400ED0964 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B192F8BD29709CE100ED0964 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B192F8BE29709D0800ED0964 /* Calendar-HelperMethods.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		B192F8C029709E0D00ED0964 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				B192F8C129709E2500ED0964 /* String-HelperMethods.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		B192F8C32970A28300ED0964 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B192F8C42970A2A800ED0964 /* MultiFactorSort.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +166,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B192F8BC29709B3300ED0964 /* Bundle in Resources */,
+				B192F8BB29709B3300ED0964 /* Color in Resources */,
 				B192F8AF29709B1400ED0964 /* Preview Assets.xcassets in Resources */,
 				B192F8AB29709B1400ED0964 /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B192F8BF29709D0800ED0964 /* Calendar-HelperMethods.swift in Sources */,
+				B192F8C229709E2500ED0964 /* String-HelperMethods.swift in Sources */,
 				B192F8A929709B1200ED0964 /* ContentView.swift in Sources */,
+				B192F8C52970A2A800ED0964 /* MultiFactorSort.swift in Sources */,
 				B192F8A729709B1200ED0964 /* MyLibraryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
