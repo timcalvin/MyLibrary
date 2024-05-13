@@ -4,20 +4,12 @@
 //
 //  Created by Timothy Bryant on 1/12/23.
 //
+//  source: https://stackoverflow.com/questions/28079123/how-to-check-validity-of-url-in-swift
 
 import Foundation
 
 extension String {
-    
-    /// Determines if a string represents a valid URL.
-    ///
-    /// ```
-    /// String.isValidURL
-    /// ```
-    /// 
-    /// - returns:`Bool`
-    /// source: https://stackoverflow.com/questions/28079123/how-to-check-validity-of-url-in-swift
-    
+    /// Returns true if a string represents a valid URL.
     var isValidURL: Bool {
         let detector = try! NSDataDetector(types: NSTextCheckingResult.CheckingType.link.rawValue)
         
@@ -28,5 +20,4 @@ extension String {
             return false
         }
     }
-    
 }
