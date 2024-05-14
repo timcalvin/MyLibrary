@@ -24,6 +24,8 @@
 		B905AE1A2BF2B38D00F86514 /* ProfileImageSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905AE192BF2B38D00F86514 /* ProfileImageSize.swift */; };
 		B905AE1E2BF30BC000F86514 /* Color+toHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905AE1D2BF30BC000F86514 /* Color+toHexString.swift */; };
 		B905AE202BF30BFC00F86514 /* UIColor+toHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905AE1F2BF30BFC00F86514 /* UIColor+toHexString.swift */; };
+		B905AE232BF30D8300F86514 /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905AE222BF30D8300F86514 /* CurrencyField.swift */; };
+		B905AE262BF30E1500F86514 /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905AE252BF30E1500F86514 /* TextFieldClearButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		B905AE192BF2B38D00F86514 /* ProfileImageSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageSize.swift; sourceTree = "<group>"; };
 		B905AE1D2BF30BC000F86514 /* Color+toHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+toHexString.swift"; sourceTree = "<group>"; };
 		B905AE1F2BF30BFC00F86514 /* UIColor+toHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+toHexString.swift"; sourceTree = "<group>"; };
+		B905AE222BF30D8300F86514 /* CurrencyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
+		B905AE252BF30E1500F86514 /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,9 @@
 			children = (
 				B192F8A629709B1200ED0964 /* MyLibraryApp.swift */,
 				B192F8A829709B1200ED0964 /* ContentView.swift */,
+				B905AE212BF30D7700F86514 /* Components */,
 				B192F8C029709E0D00ED0964 /* Extensions */,
+				B905AE242BF30E0600F86514 /* Modifiers */,
 				B905AE1B2BF2B3D600F86514 /* Views */,
 				B905AE102BF2B27500F86514 /* AsyncImageWithCaching */,
 				B905AE1C2BF30B7900F86514 /* ColorFromHexStrings */,
@@ -154,6 +160,22 @@
 				B905AE1F2BF30BFC00F86514 /* UIColor+toHexString.swift */,
 			);
 			path = ColorFromHexStrings;
+			sourceTree = "<group>";
+		};
+		B905AE212BF30D7700F86514 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B905AE222BF30D8300F86514 /* CurrencyField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B905AE242BF30E0600F86514 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				B905AE252BF30E1500F86514 /* TextFieldClearButton.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,10 +257,12 @@
 				B905AE162BF2B2B000F86514 /* ImageView.swift in Sources */,
 				B905AE202BF30BFC00F86514 /* UIColor+toHexString.swift in Sources */,
 				B905AE122BF2B29D00F86514 /* ImageCache.swift in Sources */,
+				B905AE262BF30E1500F86514 /* TextFieldClearButton.swift in Sources */,
 				B192F8A929709B1200ED0964 /* ContentView.swift in Sources */,
 				B905AE0F2BF2AFB900F86514 /* Color-Codable.swift in Sources */,
 				B192F8C52970A2A800ED0964 /* MultiFactorSort.swift in Sources */,
 				B192F8A729709B1200ED0964 /* MyLibraryApp.swift in Sources */,
+				B905AE232BF30D8300F86514 /* CurrencyField.swift in Sources */,
 				B905AE0B2BF2AF4800F86514 /* CircularImageProfileView.swift in Sources */,
 				B905AE1E2BF30BC000F86514 /* Color+toHexString.swift in Sources */,
 			);
